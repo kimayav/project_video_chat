@@ -15,8 +15,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     width: '600px',
-    border: '2px solid black',
-
+    // background: linear - gradient(rgba(250, 0, 0, 0.5), transparent),
     [theme.breakpoints.down('xs')]: {
       width: '90%',
     },
@@ -38,7 +37,7 @@ const App = () => {
   return (
     <div className={classes.wrapper}>
       <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography variant="h2" align="center">Video Chat</Typography>
+        <Typography variant="h2" align="center">Expert-Connect</Typography>
       </AppBar>
       <VideoPlayer />
       <Sidebar>
